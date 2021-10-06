@@ -13,3 +13,5 @@ while IFS= read -r line; do
     say $line
     sleep 8
 done < "$2"
+
+say "Well done!"
